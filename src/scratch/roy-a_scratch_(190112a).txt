@@ -1,0 +1,10 @@
+ npx @angular/cli new roy-a
+cd roy-a
+npm install
+npm add --save hammerjs
+npm add --save-dev --save-exact prettier
+
+git remote add origin https://github.com/jstahovic/roy-a.git
+git push -u origin master
+
+npx ng generate component mfe-a
